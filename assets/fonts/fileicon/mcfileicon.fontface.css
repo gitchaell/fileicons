@@ -1,0 +1,72 @@
+@font-face {
+	font-family: 'MC File Icon';
+	src: url('./mcfileicon.eot?o5q2lt');
+	src: url('./mcfileicon.eot?o5q2lt#iefix') format('embedded-opentype'),
+		url('./mcfileicon.ttf?o5q2lt') format('truetype'),
+		url('./mcfileicon.woff?o5q2lt') format('woff'),
+		url('./mcfileicon.svg?o5q2lt#mcfileicon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+[class^='mc-'],
+[class*=' mc-'] {
+	font-family: 'MC File Icon' !important;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.mc-file-audio:before {
+	content: '\e900';
+	color: #00beca;
+}
+.mc-file-document:before {
+	content: '\e901';
+	color: #2684ff;
+}
+.mc-file-font:before {
+	content: '\e902';
+	color: #00b2ea;
+}
+.mc-file-image:before {
+	content: '\e903';
+	color: #ff3093;
+}
+.mc-file-pack:before {
+	content: '\e904';
+	color: #ff650f;
+}
+.mc-file-pdf:before {
+	content: '\e905';
+	color: #ea3434;
+}
+.mc-file-presentation:before {
+	content: '\e906';
+	color: #ffb900;
+}
+.mc-file-script:before {
+	content: '\e907';
+	color: #121219;
+}
+.mc-file-spreadsheet:before {
+	content: '\e908';
+	color: #01ac49;
+}
+.mc-file-text:before {
+	content: '\e909';
+	color: #6f8bb5;
+}
+.mc-file-unknown:before {
+	content: '\e90a';
+	color: #bcc0d1;
+}
+.mc-file-video:before {
+	content: '\e90b';
+	color: #844fda;
+}

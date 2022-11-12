@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>File Icons</title>
+    <meta name="description" content="An Icon Font for File Types">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/fonts/fileicon/mcfileicon.fontface.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            height: 100vh;
+            overflow: hidden;
+            background-color: rgba(0, 0, 0, 0.05);
+        }
+
+        div.layout {
+            max-width: 44vw;
+            height: 100vh;
+            max-height: 100vh;
+            overflow: hidden;
+            margin: 0 auto;
+            padding: 5% 0;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            grid-gap: 1rem;
+        }
+
+        div.card {
+            width: 100%;
+            min-width: 100%;
+            max-width: 100%;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 1);
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border-radius: 0.5rem;
+        }
+
+        div.card-icon {
+            font-size: 3rem;
+            width: 100%;
+            height: 100%;
+            display: grid;
+            place-content: center;
+        }
+
+        div.card-label {
+            font-family: system-ui;
+            font-size: 0.875rem;
+            font-weight: 500;
+            padding: 12px;
+            color: rgba(0, 0, 0, 0.8);
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="layout">
+
+        <div class="card">
+            <div class="mc-file-pack card-icon"></div>
+            <div class="card-label">Pack</div>
+        </div>
+
+        <div class="card">
+            <div class="mc-file-document card-icon"></div>
+            <div class="card-label">Document</div>
+        </div>
+
+        <div class="card">
+            <div class="mc-file-spreadsheet card-icon"></div>
+            <div class="card-label">Spreadsheet</div>
+        </div>
+
+        <div class="card">
+            <div class="mc-file-presentation card-icon"></div>
+            <div class="card-label">Presentation</div>
+        </div>
+
+        <div class="card">
+            <div class="mc-file-unknown card-icon"></div>
+            <div class="card-label">Unknown</div>
+        </div>
+
+        <div class="card">
+            <div class="mc-file-image card-icon"></div>
+            <div class="card-label">Image</div>
+        </div>
+
+        <div class="card">
+            <div class="mc-file-audio card-icon"></div>
+            <div class="card-label">Audio</div>
+        </div>
+
+        <div class="card">
+            <div class="mc-file-video card-icon"></div>
+            <div class="card-label">Video</div>
+        </div>
+
+        <div class="card">
+            <div class="mc-file-pdf card-icon"></div>
+            <div class="card-label">PDF</div>
+        </div>
+
+        <div class="card">
+            <div class="mc-file-text card-icon"></div>
+            <div class="card-label">Text</div>
+        </div>
+
+        <div class="card">
+            <div class="mc-file-font card-icon"></div>
+            <div class="card-label">Font</div>
+        </div>
+
+        <div class="card">
+            <div class="mc-file-script card-icon"></div>
+            <div class="card-label">Script</div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
